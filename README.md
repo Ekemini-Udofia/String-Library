@@ -55,6 +55,13 @@ int main() {
 }
 ```
 
+## **How to build**
+
+```PowerShell
+mkdir build
+gcc -Wall -Iinclude -o build/string_test.exe .\src\main.c .\src\my-string.c
+```
+
 ## **Learning Goals**
 
 1. Understand **header and source file separation**.
