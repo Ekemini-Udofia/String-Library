@@ -60,6 +60,8 @@ int main() {
 ```PowerShell
 mkdir build
 gcc -Wall -Iinclude -o build/string_test.exe .\src\main.c .\src\my-string.c
+cd build 
+./string_text.exe
 ```
 
 ## **Learning Goals**
